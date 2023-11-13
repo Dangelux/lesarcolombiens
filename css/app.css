@@ -108,12 +108,12 @@ ul {
 }
 
 /*Boton Especial*/
-.button {
-  position: relative;
+/* .button { */
+  /* position: relative; */
   /* width: 15rem; */
-  width: 15rem;
+  /* width: 15rem; */
   /* height: 5rem; */
-  height: 7rem;
+  /* height: 7rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -168,7 +168,7 @@ ul {
 
 .button:active {
   border: 1px solid #85371f;
-}
+} */
 
 .texto-justificado{
     text-align: justify;
@@ -773,7 +773,7 @@ ul {
     transition: background-color .3s ease;
   }
   .banner__mascara:hover{
-    background-color: #e78669;
+    background-color: #333;
   }
   .banner__mascara span{
     color: white;
@@ -802,9 +802,6 @@ ul {
   }
   .banner__email {
     background-color: #777;
-  }
-  .banner__email--special{
-    background-color: #b34727;
   }
 
   .banner__whatsapp {
